@@ -1,4 +1,4 @@
-from cryptography.fernet import Fernent
+from cryptography.fernet import Fernet
 
 
 master_pwd= input("What is the master password? ")
@@ -8,9 +8,10 @@ master_pwd= input("What is the master password? ")
 # function to store a key  and function to retreive a key.
 
 def write_key():
-    key = Fernent.generate_key()
-    with open("key.key","wb") as key_file :
+    key = Fernet.generate_key()
+    with open ("key.key","wb") as key_file:
         key_file.write(key)
+
 
     write_key()
 
