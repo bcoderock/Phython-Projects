@@ -34,9 +34,7 @@ def view():
              data =line.rstrip()
         #using the .split()
         user, passw = data.split("|")
-        print("User:", user, "Password:",str(fer.decrypt(passw.encode())))
-
-
+        print("User:", user, "Password:",fer.decrypt(passw.encode()).decode())
 
 
 def add():
@@ -46,7 +44,7 @@ def add():
 # modes:w- overwrite, r-read a-append mode(adds or created new file )
 # f is our file name
     with open ("password.txt", 'a') as f:
-        f.write(name+"|"+ str(fer.encrypt(pwd.encode())) + "\n")
+        f.write(name+"|"+ fer.encrypt(pwd.encode()).decode() + "\n")
 
   
 while True:
