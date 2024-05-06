@@ -1,4 +1,8 @@
+
+
 master_pwd= input("What is the master password? ")
+
+
 
 # function is an executable reusable line of code
 def view():
