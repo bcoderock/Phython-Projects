@@ -11,7 +11,7 @@ def add():
 # modes:w- overwrite, r-read a-append mode(adds or created new file )
 # f is our file name
     with open ("password.txt", 'a') as f:
-        f.write(name+""+pwd)
+        f.write(name+"|"+pwd)
 
   
 while True:
