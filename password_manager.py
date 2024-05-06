@@ -5,7 +5,9 @@ def view():
      with open ("password.txt", 'r') as f:
         # create a loop through the  lines of the file
         for line in f.readlines():
-            print(line)
+        # strip the carage return from our line wth rstrip()
+            print(line.rstrip())
+
 
 
 
