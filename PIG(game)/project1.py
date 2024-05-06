@@ -22,8 +22,12 @@ print(players)
 max_score =50
 player_scores = [ 0 for _ in range(players)] #list comprehention
 
-print(player_scores)
-
+while max(player_scores) < max_score :
+    should_roll =input("Would you like to roll (y)?")
+    if should_roll.lower() == "y" :
+       break
+    value =roll()
+    
 
 
 
