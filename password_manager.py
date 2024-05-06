@@ -2,7 +2,12 @@ master_pwd= input("What is the master password? ")
 
 # function is an executable reusable line of code
 def view():
-    pass
+     with open ("password.txt", 'r') as f:
+        # create a loop through the  lines of the file
+        for line in f.readlines():
+            print(line)
+
+
 
 def add():
     name= input ("Account Name: ")
@@ -11,7 +16,7 @@ def add():
 # modes:w- overwrite, r-read a-append mode(adds or created new file )
 # f is our file name
     with open ("password.txt", 'a') as f:
-        f.write(name+"|"+pwd)
+        f.write(name+"|"+ pwd + "\n")
 
   
 while True:
