@@ -9,11 +9,11 @@ master_pwd= input("What is the master password? ")
 
 def write_key():
     key = Fernet.generate_key()
-    with open ("key.key","wb") as key_file:
+    with open("key.key","wb") as key_file:
         key_file.write(key)
 
 
-    write_key()
+write_key()
 
 # function is an executable reusable line of code
 def view():
