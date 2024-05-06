@@ -1,8 +1,18 @@
+from cryptography.fernet import Fernent
 
 
 master_pwd= input("What is the master password? ")
 
+# key + password + text to encrypt = random text
+# randomtext + key + password = text to encrypt
+# function to store a key  and function to retreive a key.
 
+def write_key():
+    key = Fernent.generate_key()
+    with open("key.key","wb") as key_file :
+        key_file.write(key)
+
+    write_key()
 
 # function is an executable reusable line of code
 def view():
