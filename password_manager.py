@@ -59,4 +59,4 @@ while True:
     else:
         print("Invalid mode.")
         continue
- # ude documetation to improve on this projrct by adding a master key
+ # use documetation to improve on this project by adding a master key.
