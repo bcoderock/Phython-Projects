@@ -11,7 +11,6 @@ while True :
     if players.isdigit():
         players =int(players)
         if 1 <= players <=4:
-            
             break
         else:
              print("Must be between 2-4 players.")
@@ -19,6 +18,12 @@ while True :
         print("Invalid, try again.")
 
 print(players)
+
+max_score =50
+player_scores = [ 0 for _ in range(players)] #list comprehention
+
+print(player_scores)
+
 
 
 
