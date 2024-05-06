@@ -1,0 +1,6 @@
+Heloo there this is a list of the 21 projects to plan to do by the end of the week .Every completed project joings this beautiful list
+1. number_guesser
+2. quiz_game
+3 choose_your_own_adventure
+4 rock_paper_scissors
+5 password_manager
