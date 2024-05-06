@@ -6,7 +6,10 @@ def view():
         # create a loop through the  lines of the file
         for line in f.readlines():
         # strip the carage return from our line wth rstrip()
-            print(line.rstrip())
+             data =line.rstrip()
+        #using the .split()
+        user, passw = data.split("|")
+        print("User:", user, "Password:",passw)
 
 
 
