@@ -1,4 +1,5 @@
 #mad lib generator
+#load the text file as a string
 with open("PIG(game)\story.txt", "r") as f: #provides filecontext
     story =f.read()
 
@@ -27,3 +28,7 @@ for word in words:
 
 print(answers)
 
+for word in words:
+    story =story.replace(word,answers[word])
+
+print(story)
