@@ -1,1 +1,7 @@
-Once upon a time, in a faraway <adjective> kingdom, there lived a <adjective> <noun>. Every day, the <noun> would <verb> in the <place>, hoping to find a <adjective> <noun>. One sunny day, a <noun> appeared, carrying a <adjective> <noun> in its <body part>. "I have traveled across the <adjective> <place> to bring you this," said the <noun>. The <noun> was overjoyed and decided to <verb> a <event> to celebrate this <adjective> occasion. Everyone from the <place> was invited, including the <adjective> <noun>, the <noun> with its <adjective> <noun>, and even a <adjective> <noun> who loved to <verb>. The party was a <adjective> success, and they all lived <adverb> ever after.
+Once upon a time, in a <adjective1> <place>, there was a <noun1> named <name>. 
+This <noun1> loved to <verb1> every <time_of_day>. One day, <name> went to the <place2> 
+to <verb2> some <plural_noun1>. There, <name> met a <adjective2> <noun2> who said, 
+"<exclamation>! I have never seen such a <adjective3> <noun1> who could <verb1> like you!"
+They became <adjective4> friends and went on <adjective5> adventures together, 
+discovering <adjective6> <plural_noun2> and <verb3>ing <adjective7> <plural_noun3>. 
+And they lived <adverb1> ever after.
