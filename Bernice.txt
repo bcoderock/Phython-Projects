@@ -11,4 +11,3 @@ Heloo there this is a list of the 21 projects to plan to do by the end of the we
 6. PIG
 7.Madlibs Generator
 8.Timed math  challange
-9.slot Machine
